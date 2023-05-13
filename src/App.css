@@ -2,3 +2,26 @@
     height: 50px;
     width: 100%;
 }
+
+.center_container{
+    background-color:rgb(255, 255, 255);
+    min-height: 70vh;
+    max-width: 60vw;
+    margin: 80px auto;
+    border: 2px solid #ED2546;
+    border-radius: 10px;
+}
+
+.button_left{
+    border-radius: 5px 0px 0px 0px;
+    border-left: none;
+    border-top: none;
+}
+.button_middle{
+    border-top: none;
+}
+.button_right{
+    border-radius: 0px 5px 0px 0px;
+    border-right: none;
+    border-top: none;
+}
